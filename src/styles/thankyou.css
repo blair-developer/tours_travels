@@ -1,0 +1,8 @@
+.thank__you span i{
+    font-size: 4rem;
+    color: blueviolet;
+}
+.thank__you h1{
+    font-size: 2.6rem;
+    font-family: var(--subtitle-font-name);
+}
