@@ -23,7 +23,7 @@ export const getBooking = async(req,res) => {
     }
 }
 
-//single booking
+//all booking
 export const getAllBooking = async(req,res) => {
     try {
        const books = await Booking.find(id);
