@@ -3,9 +3,9 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./../pages/Home";
 import Tours from "./../pages/Tours";
 import TourDetail from "./../pages/TourDetail";
-import  Login from "./../pages/login";
+import Login from "./../pages/login";
 import Register from "./../pages/Register";
-import searchResultlist from "./../pages/searchResultlist";
+import SearchResultList from "./../pages/SearchResultList"
 import Thankyou from '../pages/Thankyou';
 
 const Routers = () => {
@@ -18,7 +18,7 @@ const Routers = () => {
        <Route path='/login' element={<Login/>} />
        <Route path='/register' element={<Register/>} />
        <Route path='/thank-you' element={<Thankyou/>} />
-       <Route path='/tours/search' element={<searchResultlist/>} />
+       <Route path='/tours/search' element={<SearchResultList/>} />
     </Routes>
   )
 }

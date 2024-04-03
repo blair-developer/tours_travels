@@ -25,14 +25,17 @@ const Header = () => {
 
     const headerRef = useRef(null)
     const stickyHeadFunc = () => {
-        window.addEventListener('scroll', ()=> {
-            if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-               headerRef.current.classList.add('sticky__header')
-            }else{
-                headerRef.current.classList.remove('sticky__header')
+        window.addEventListener('scroll', () => {
+            const header = headerRef.current;
+            if (header) { // Check if headerRef.current is not null
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    header.classList.add('sticky__header');
+                } else {
+                    header.classList.remove('sticky__header');
+                }
             }
-        })
-    }
+        });
+    };
     useEffect(()=>{
         stickyHeadFunc()
         return window.removeEventListener('scroll', stickyHeadFunc)

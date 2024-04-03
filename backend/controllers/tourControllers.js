@@ -73,7 +73,7 @@ export const getAllTour = async(req,res) => {
     }
  }
 
- export const getFeaturedTour = async(req,res) => {
+ export const getFeaturedTour = async(req,res)=> {
     const page = parseInt(req.query.page);
     try {
       const tours = await Tour.find({featured:true}).populate("reviews").limit(8);
