@@ -1,6 +1,6 @@
 import React from 'react';
 import TourCard from '../../shared/TourCard';
-//import tourData from '../../assets/data/tours';
+import tourData from '../../assets/data/tours';
 import { Col } from "reactstrap";
 import useFetch from './../../hooks/useFetch';
 import { BASE_URL } from '../../utils/config';
@@ -11,9 +11,8 @@ const FeaturedTourList = () => {
 
   //console.log(featuredTours);
 
-
-
-  return (
+//for api
+/*return (
   <>
   {loading && <h4>loading.......</h4>}
   {error && <h4>{error}</h4>}
@@ -21,6 +20,18 @@ const FeaturedTourList = () => {
     !error &&
         featuredTours?.map(tour=>(
             <Col lg='3' className='mb-4' key={tour._id}>
+                <TourCard tour={tour}/>
+            </Col>
+        ))
+    }
+  </>
+  );*/
+
+
+  return (
+  <>
+    {tourData?.map(tour=>(
+            <Col lg='3' className='mb-4' key={tour.id}>
                 <TourCard tour={tour}/>
             </Col>
         ))

@@ -38,7 +38,7 @@ const Testimonial = () => {
     <Slider {...settings}>
         <div className="testimonial py-4 px-3">
            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, placeat tenetur consectetur nobis quo minima incidunt! Cumque dolore vero voluptatibus, esse cupiditate hic magnam optio ratione repellendus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, 
            </p>
            <div className="d-flex align-items-center gap-4 mt-3">
               <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
@@ -50,7 +50,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial py-4 px-3">
            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, placeat tenetur consectetur nobis quo minima incidunt! Cumque dolore vero voluptatibus, esse cupiditate hic magnam optio ratione repellendus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, 
            </p>
            <div className="d-flex align-items-center gap-4 mt-3">
               <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
@@ -62,7 +62,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial py-4 px-3">
            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, placeat tenetur consectetur nobis quo minima incidunt! Cumque dolore vero voluptatibus, esse cupiditate hic magnam optio ratione repellendus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, 
            </p>
            <div className="d-flex align-items-center gap-4 mt-3">
               <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
@@ -74,7 +74,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial py-4 px-3">
            <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, placeat tenetur consectetur nobis quo minima incidunt! Cumque dolore vero voluptatibus, esse cupiditate hic magnam optio ratione repellendus?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum accusamus distinctio, 
            </p>
            <div className="d-flex align-items-center gap-4 mt-3">
               <img src={ava03} className='w-25 h-25 rounded-2' alt="" />

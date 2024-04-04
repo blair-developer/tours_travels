@@ -25,7 +25,7 @@ const Home = () => {
                   <Subtitle subtitle={'Know before you go'}/>
                   <img src={worldImg} alt="" />
              </div>
-                 <h1>Travelling opens the door to creating{" "} <span className='highlight'> memories</span></h1>
+                 <h1>Welcome to BT Tours and travels company -{" "} <span className='highlight'>Where Adventures Begin!</span></h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, a magni maxime consequatur aperiam quis animi, fugit pariatur debitis hic esse qui voluptatibus rem asperiores illum expedita incidunt laborum ipsam!
                 </p>
@@ -82,7 +82,7 @@ const Home = () => {
             <Col lg='6'>
                 <div className="experience__content">
                 <Subtitle subtitle={'Experience'} />
-                <h2>We provide experience <br/> we will server you</h2>
+                <h2>We provide experience <br/> we will serve you</h2>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                     <br/>Ut adipisci ipsa error eum facilis laudantium accusantium cupiditate? Sed, laborum earum? Consequatur eius corrupti temporibus mollitia obcaecati veniam laudantium laborum! Commodi.
@@ -130,8 +130,8 @@ const Home = () => {
             <Col lg='12'>
                <Subtitle subtitle={'Fans Love'} />
                <h2 className="testimonial__title">
-                   What our fans say abiut us
-               </h2>
+                   What our client say about our services
+              </h2>
             </Col>
             <Col lg='12'>
                 <Testimonial />

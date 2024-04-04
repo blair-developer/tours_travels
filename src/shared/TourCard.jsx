@@ -15,7 +15,7 @@ const TourCard = ({tour}) => {
 <div className="tour__card">
     <Card>
       <div className='tour__img'>
-       <img src={`/tours/${photo}`} alt="tour-img" />
+       <img src={photo} alt="tour-img" />
        {featured && <span>Featured</span>}
     </div>
     </Card>

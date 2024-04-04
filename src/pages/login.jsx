@@ -23,8 +23,8 @@ const handleClick = e => {
   return <section>
      <Container>
        <Row>
-         <Col lg='8' className='m-auto'>
-           <div className="login__container d-flex justify-content-between">
+         <Col xs='12' className='m-auto'>
+           <div className="login__container d-flex justify-content-between flex-column flex-lg-row">
               <div className="login__img">
                  <img src={loginImg} alt="" />
               </div>

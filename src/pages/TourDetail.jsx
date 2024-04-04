@@ -18,7 +18,7 @@ const TourDetail = () => {
 
     // Check if tour is undefined before destructuring
     if (!tour) {
-        return <div>Loading...</div>;
+        return <div>Loading...</div>
     }
 
     const { photo, title, desc, price, reviews, city, distance, maxGroupSize, address } = tour;

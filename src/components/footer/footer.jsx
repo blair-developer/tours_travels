@@ -3,6 +3,7 @@ import './footer.css';
 import { Container, Row, Col, ListGroup, ListGroupItem } from "reactstrap";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png"
+import logo3 from '../../assets/images/logo3.png'
 
 const quick__links=[
     {
@@ -47,7 +48,7 @@ const footer = () => {
             <Row>
                 <Col lg='3'>
                     <div className="logo">
-                        <img src={logo} alt="" />
+                        <img src={logo3} alt="" />
                         <p>Lorem ipsum dolor sit amet</p>
                         <div className="social__links d-flex align-items-center gap-4">
                             <span>
@@ -70,8 +71,8 @@ const footer = () => {
                     <ListGroup className='footer__quick-links'>
                        {
                         quick__links.map((item,index)=>(
-                            <ListGroupItem key={index} className='ps-0 border-0'>
-                               <Link to={item.path}>{item.display}</Link>
+                            <ListGroupItem key={index} className='bg-secondary ps-4 border-0'>
+                               <Link to={item.path} className='text-white'>{item.display}</Link>
                             </ListGroupItem>
                         ))
                        }
@@ -82,31 +83,31 @@ const footer = () => {
                     <ListGroup className='footer__quick-links'>
                        {
                         quick__links2.map((item,index)=>(
-                            <ListGroupItem key={index} className='ps-0 border-0'>
-                               <Link to={item.path}>{item.display}</Link>
+                            <ListGroupItem key={index} className='bg-primary ps-4 border-0'>
+                               <Link to={item.path} className='text-white'>{item.display}</Link>
                             </ListGroupItem>
                         ))
                        }
                     </ListGroup>
                 </Col>
                 <Col lg='3'>
-                <h5 className='footer__link-title'>Contact</h5>
+                <h5 className='footer__link-title'>Contact Us</h5>
                     <ListGroup className='footer__quick-links'>
-                            <ListGroupItem className='ps-0 border-0 d-flex align-items-center'>
+                            <ListGroupItem className='bg-success ps-4 border-0 d-flex align-items-center'>
                               <h6 className='mb-0 d-flex align-items-center gap-2'>
                                 <span><i class="ri-map-pin-line"></i></span>
                                 Adress:
                               </h6>
                               <p className='mb-0'>nairobi, Kenya</p>
                             </ListGroupItem>
-                            <ListGroupItem className='ps-0 border-0 d-flex align-items-center'>
+                            <ListGroupItem className='bg-success ps-4 border-0 d-flex align-items-center'>
                               <h6 className='mb-0 d-flex align-items-center gap-2'>
                                 <span><i class="ri-mail-line"></i></span>
                                 Email:
                               </h6>
                               <p className='mb-0'>blair@gmail.com</p>
                             </ListGroupItem>
-                            <ListGroupItem className='ps-0 border-0 d-flex align-items-center'>
+                            <ListGroupItem className='bg-success ps-4 border-0 d-flex align-items-center'>
                               <h6 className='mb-0 d-flex align-items-center gap-2'>
                                 <span><i class="ri-phone-fill"></i></span>
                                 Phone:
@@ -116,7 +117,7 @@ const footer = () => {
                     </ListGroup>
                 </Col>
                 <Col lg='12' className='text-center pt-5'>
-                    <p className='copyright'>Copyright {year}, design and developed by Blair. All rights reserved</p>
+                    <p className='copyright text-success fw-700'>Copyright {year}, design and developed by Blair. All rights reserved</p>
                 </Col>
             </Row>
         </Container>
